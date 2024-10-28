@@ -60,5 +60,9 @@ public class HandLuggagePage {
             ARMENIA.click();
             TEXT_ARMENIA.shouldHave(Condition.text("Ручная кладь вес и/или "));
         }
+
+    public static String getURI_BAGGAGE() {
+        return URI_BAGGAGE;
     }
+   }
 
