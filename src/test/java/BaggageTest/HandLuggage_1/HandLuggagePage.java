@@ -8,7 +8,6 @@ import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.SelenideElement;
 
 import static com.codeborne.selenide.Selenide.$x;
-import static org.openqa.selenium.Keys.PAGE_DOWN;
 
 public class HandLuggagePage {
 
@@ -19,28 +18,44 @@ public class HandLuggagePage {
     private final SelenideElement RF = $x("/html/body/div[1]/div[2]/div[1]/div[2]/div/div/div[2]/div[2]/div[2]/div/div/ul[2]/li/div[1]");
 
     //Элемент для перелета из Таджикистан
-    private final SelenideElement TADJIKISTAN = $x("//div[contains(text(), 'Вылет из Таджикистана')]//ancestor::div[@class='uk-visible@l']");
+    private final SelenideElement TADJIKISTAN = $x("/html/body/div[1]/div[2]/div[1]/div[2]/div/div/div[2]/div[2]/div[2]/div/div/ul[3]/li/div[1]");
 
     //Элемент для перелета из Киргизии
-    private final SelenideElement KIRGIZIYA = $x("//div[contains(text(), 'Вылет из Киргизии')]//ancestor::div[@class='uk-visible@l']");
+    private final SelenideElement KIRGIZIYA = $x("/html/body/div[1]/div[2]/div[1]/div[2]/div/div/div[2]/div[2]/div[2]/div/div/ul[4]/li/div[1]");
 
     //Элемент для перелета из Турции
-    private final SelenideElement TURCIYA = $x("//div[contains(text(), 'Вылет из ОАЭ')]//ancestor::div[@class='uk-visible@l']");
+    private final SelenideElement TURCIYA = $x("/html/body/div[1]/div[2]/div[1]/div[2]/div/div/div[2]/div[2]/div[2]/div/div/ul[5]/li/div[1]");
 
     //Элемент для перелета из Армении
-    private final SelenideElement ARMENIA = $x("//div[contains(text(), 'Вылет из Азербайджана')]//ancestor::div[@class='uk-visible@l']");
+    private final SelenideElement ARMENIA = $x("/html/body/div[1]/div[2]/div[1]/div[2]/div/div/div[2]/div[2]/div[2]/div/div/ul[6]/li/div[1]");
 
-    //Элемент для проверки текста после нажатия на элемент RF
+    //Элемент для проверки текста после нажатия на элементов
     private final SelenideElement TEXT_RF = $x("/html/body/div[1]/div[2]/div[1]/div[2]/div/div/div[2]/div[2]/div[2]/div/div/ul[2]/li/div[2]/div/div/table/tbody/tr/td[1]");
+    private final SelenideElement TEXT_TADJIKISTAN = $x("/html/body/div[1]/div[2]/div[1]/div[2]/div/div/div[2]/div[2]/div[2]/div/div/ul[3]/li/div[2]/div/div/table/tbody/tr/td[1]");
+    private final SelenideElement TEXT_KIRGIZIYA = $x("/html/body/div[1]/div[2]/div[1]/div[2]/div/div/div[2]/div[2]/div[2]/div/div/ul[4]/li/div[2]/div/div/table/tbody/tr/td[1]");
+    private final SelenideElement TEXT_TURCIYA = $x("/html/body/div[1]/div[2]/div[1]/div[2]/div/div/div[2]/div[2]/div[2]/div/div/ul[5]/li/div[2]/div/div/table/tbody/tr/td[1]");
+    private final SelenideElement TEXT_ARMENIA = $x("/html/body/div[1]/div[2]/div[1]/div[2]/div/div/div[2]/div[2]/div[2]/div/div/ul[6]/li/div[2]/div/div/table/tbody/tr/td[1]");
 
-    private final SelenideElement TEXT = $x("/html/body/div[1]/div[2]/div[1]/div[2]/div/div/div[2]/div[2]/div[1]/button");
-    //Всплывающий элемент
-    private final SelenideElement POLE = $x("");
     public void test1() {
+        //Открытие страници
         Selenide.open(URI_BAGGAGE);
-        TEXT.sendKeys(PAGE_DOWN);
+        //Прокрутка сайта до элемента
         RF.scrollIntoView(true);
+        //Нажатие и проверка элемента
         RF.click();
-        TEXT_RF.shouldHave(Condition.text("Ручная кладь вес и/или габариты которой превышают установленные размеры (вес более 10кг, габариты более 55х40х20см ), выявленная при выходе на посадку"));
+        TEXT_RF.shouldHave(Condition.text("Ручная кладь вес и/или "));
+        //Нажатие и проверка элемента
+        TADJIKISTAN.click();
+        TEXT_TADJIKISTAN.shouldHave(Condition.text("Ручная кладь вес и/или "));
+        //Нажатие и проверка элемента
+        KIRGIZIYA.click();
+        TEXT_KIRGIZIYA.shouldHave(Condition.text("Ручная кладь вес и/или "));
+        //Нажатие и проверка элемента
+        TURCIYA.click();
+        TEXT_TURCIYA.shouldHave(Condition.text("Ручная кладь вес и/или "));
+        //Нажатие и проверка элемента
+        ARMENIA.click();
+        TEXT_ARMENIA.shouldHave(Condition.text("Ручная кладь вес и/или "));
     }
+
 }
