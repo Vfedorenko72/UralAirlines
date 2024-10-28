@@ -16,7 +16,7 @@ abstract public class BaseTest {
         //Разрешение экрана
         Configuration.browserSize = "1000x800";
         //Отображение экрана
-       // Configuration.headless = true;
+        Configuration.headless = false;
 
     }
 
