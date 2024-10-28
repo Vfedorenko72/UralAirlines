@@ -2,33 +2,30 @@ package Setting;
 
 import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.Selenide;
-//import io.github.bonigarcia.wdm.WebDriverManager;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
 
-
 abstract public class BaseTest {
-    public static void setUp(){
-        //Атоматическое скачивание и настройка браузера хром
-        WebDriverManager.chromedriver().setup();
-        //Выбор драйвера
-        Configuration.browser = "chrome";
-        //Разрешение экрана
-        Configuration.browserSize = "1000x800";
-        //Отображение экрана
-        Configuration.headless = false;
+    public static void setUp() {
+        // Автоматическая настройка драйвера под Chrome версии 130
+        WebDriverManager.chromedriver().browserVersion("130").setup();
 
+        // Настройки Selenide
+        Configuration.browser = "chrome";
+        Configuration.browserSize = "1920x1080";
+        Configuration.headless = false;
+        Configuration.pageLoadStrategy = "eager";
+        Configuration.pageLoadTimeout = 6000;
     }
 
     @BeforeAll
-    public static void init(){
+    public static void init() {
         setUp();
-
     }
 
     @AfterAll
-    public static void tearDown(){
+    public static void tearDown() {
         Selenide.closeWebDriver();
     }
 }
