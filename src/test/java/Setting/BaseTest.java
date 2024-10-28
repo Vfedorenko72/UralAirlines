@@ -20,6 +20,8 @@ abstract public class BaseTest {
         Configuration.pageLoadTimeout = 6000;
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--headless");
+        options.addArguments("--disable-gpu");
+        options.addArguments("--no-sandbox");
 
     }
 

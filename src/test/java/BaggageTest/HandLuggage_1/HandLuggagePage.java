@@ -35,7 +35,7 @@ public class HandLuggagePage {
     private final SelenideElement TEXT_TURCIYA = $x("/html/body/div[1]/div[2]/div[1]/div[2]/div/div/div[2]/div[1]/div/div[2]/div/ul[5]/li/div[2]/div/div/table/tbody/tr/td[1]");
     private final SelenideElement TEXT_ARMENIA = $x("/html/body/div[1]/div[2]/div[1]/div[2]/div/div/div[2]/div[1]/div/div[2]/div/ul[6]/li/div[2]/div/div/table/tbody/tr/td[1]");
    //Всплывающее окно при запуске странице
-    private final SelenideElement BUTTON = $x("/html/body/div[1]/div[2]/div[1]/div[1]/div/div/div/button");
+    public static final SelenideElement BUTTON = $x("/html/body/div[1]/div[2]/div[1]/div[1]/div/div/div/button");
 
     public void test1() {
         //Открытие страници
@@ -60,9 +60,5 @@ public class HandLuggagePage {
             ARMENIA.click();
             TEXT_ARMENIA.shouldHave(Condition.text("Ручная кладь вес и/или "));
         }
-
-    public static String getURI_BAGGAGE() {
-        return URI_BAGGAGE;
-    }
    }
 
