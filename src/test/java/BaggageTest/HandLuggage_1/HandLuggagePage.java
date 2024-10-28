@@ -39,6 +39,7 @@ public class HandLuggagePage {
     public void test1() {
         Selenide.open(URI_BAGGAGE);
         TEXT.sendKeys(PAGE_DOWN);
+        RF.scrollIntoView(true);
         RF.click();
         TEXT_RF.shouldHave(Condition.text("Ручная кладь вес и/или габариты которой превышают установленные размеры (вес более 10кг, габариты более 55х40х20см ), выявленная при выходе на посадку"));
     }
