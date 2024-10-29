@@ -1,6 +1,7 @@
 package OpenPage;
 
 import BaggageTest.CheckedBaggage_2.CheckedBaggagePage;
+import BaggageTest.ChildrenAndLuggage_3.ChildrenAndLuggagePage;
 import BaggageTest.HandLuggage_1.HandLuggagePage;
 import Setting.BaseTest;
 import io.qameta.allure.Feature;
@@ -19,6 +20,12 @@ public class MainTest extends BaseTest {
     public void testCheckedBaggage(){
         CheckedBaggagePage checkedBaggagePage = new CheckedBaggagePage();
         checkedBaggagePage.test2();
+    }
+    @Test
+    @Feature("Тест на проверку работы Дети и багаж")
+    public void testCildrenAndLuggage(){
+        ChildrenAndLuggagePage childrenAndLuggagePage = new ChildrenAndLuggagePage();
+        childrenAndLuggagePage.test3();
     }
 
 }

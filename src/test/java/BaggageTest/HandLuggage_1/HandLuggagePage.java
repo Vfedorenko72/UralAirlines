@@ -34,31 +34,29 @@ public class HandLuggagePage {
     private final SelenideElement TEXT_KIRGIZIYA = $x("/html/body/div[1]/div[2]/div[1]/div[2]/div/div/div[2]/div[1]/div/div[2]/div/ul[4]/li/div[2]/div/div/table/tbody/tr/td[1]");
     private final SelenideElement TEXT_TURCIYA = $x("/html/body/div[1]/div[2]/div[1]/div[2]/div/div/div[2]/div[1]/div/div[2]/div/ul[5]/li/div[2]/div/div/table/tbody/tr/td[1]");
     private final SelenideElement TEXT_ARMENIA = $x("/html/body/div[1]/div[2]/div[1]/div[2]/div/div/div[2]/div[1]/div/div[2]/div/ul[6]/li/div[2]/div/div/table/tbody/tr/td[1]");
-   //Всплывающее окно при запуске странице
+    //Всплывающее окно при запуске странице
     public static final SelenideElement BUTTON = $x("/html/body/div[1]/div[2]/div[1]/div[1]/div/div/div/button");
 
     public void test1() {
         //Открытие страници
         Selenide.open(URI_BAGGAGE);
-        //Если есть всплывающее окно то оно закроется
-            BUTTON.click();
-            //Прокрутка сайта до элемента
-            RF.scrollIntoView(true);
-            //Нажатие и проверка элемента
-            RF.click();
-            TEXT_RF.shouldHave(Condition.text("Ручная кладь вес и/или "));
-            //Нажатие и проверка элемента
-            TADJIKISTAN.click();
-            TEXT_TADJIKISTAN.shouldHave(Condition.text("Ручная кладь вес и/или "));
-            //Нажатие и проверка элемента
-            KIRGIZIYA.click();
-            TEXT_KIRGIZIYA.shouldHave(Condition.text("Ручная кладь вес и/или "));
-            //Нажатие и проверка элемента
-            TURCIYA.click();
-            TEXT_TURCIYA.shouldHave(Condition.text("Ручная кладь вес и/или "));
-            //Нажатие и проверка элемента
-            ARMENIA.click();
-            TEXT_ARMENIA.shouldHave(Condition.text("Ручная кладь вес и/или "));
-        }
-   }
+        //Прокрутка сайта до элемента
+        RF.scrollIntoView(true);
+        //Нажатие и проверка элемента
+        RF.click();
+        TEXT_RF.shouldHave(Condition.text("Ручная кладь вес и/или "));
+        //Нажатие и проверка элемента
+        TADJIKISTAN.click();
+        TEXT_TADJIKISTAN.shouldHave(Condition.text("Ручная кладь вес и/или "));
+        //Нажатие и проверка элемента
+        KIRGIZIYA.click();
+        TEXT_KIRGIZIYA.shouldHave(Condition.text("Ручная кладь вес и/или "));
+        //Нажатие и проверка элемента
+        TURCIYA.click();
+        TEXT_TURCIYA.shouldHave(Condition.text("Ручная кладь вес и/или "));
+        //Нажатие и проверка элемента
+        ARMENIA.click();
+        TEXT_ARMENIA.shouldHave(Condition.text("Ручная кладь вес и/или "));
+    }
+}
 
