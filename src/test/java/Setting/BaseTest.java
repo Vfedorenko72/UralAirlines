@@ -18,10 +18,17 @@ abstract public class BaseTest {
         Configuration.headless = false;
         Configuration.pageLoadStrategy = "eager";
         Configuration.pageLoadTimeout = 6000;
+
+        // Опции для Chrome
         ChromeOptions options = new ChromeOptions();
-        options.addArguments("--headless");
+        options.addArguments("--headless"); // Оставьте, если нужно без GUI
         options.addArguments("--disable-gpu");
         options.addArguments("--no-sandbox");
+        options.addArguments("--disable-dev-shm-usage"); // Для контейнеров
+        options.addArguments("--window-size=1920,1080");
+
+        // Применение опций к Selenide
+        Configuration.browserCapabilities = options;
 
     }
 
