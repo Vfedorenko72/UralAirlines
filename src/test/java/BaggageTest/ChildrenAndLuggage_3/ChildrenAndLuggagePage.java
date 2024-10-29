@@ -1,6 +1,5 @@
 package BaggageTest.ChildrenAndLuggage_3;
 
-import BaggageTest.HandLuggage_1.HandLuggagePage;
 import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.SelenideElement;
@@ -8,15 +7,23 @@ import com.codeborne.selenide.SelenideElement;
 import static com.codeborne.selenide.Selenide.$x;
 
 public class ChildrenAndLuggagePage {
+    //URL
     private final static String URI_CILDREN = "https://www.uralairlines.ru/baggage_detail/deti-i-bagazh/";
-    private final SelenideElement TEXT_CILDEN = $x("/html/body/div[1]/div[2]/div[1]/div[2]/div/div/div[2]/div[1]/div/div[2]/div/div[1]/div");
-    private final SelenideElement FLAG = $x("/html/body/div[1]/div[2]/div[1]/div[2]/div/div/div[2]/div[1]/div/div[2]/div/div[3]/div/div[2]/div[7]/div/a");
-    private final SelenideElement TEXT_PAGE = $x("/html/body/div[1]/div[2]/div[1]/div[2]/div/div/h1");
+
+    //Элемент для проверки что страница открылась
+    private final SelenideElement TEXT_CILDEN = $x("//div[@class='uk-visible@l']//div[contains(text(),'В соответствии с законодательством')]");
+
+    //Гипер ссылка для перехода на страницу Несопровождаемый ребенок
+    private final SelenideElement FLAG = $x("//div[@class='uk-visible@l']//a[contains(text(),'Несопровождаемый ребенок')]");
+
+    //Элемент для проверки перехода на странице Несопровождаемый ребенок
+    private final SelenideElement TEXT_PAGE = $x("//h1[@class='uk-visible@m']");
+
     public void test3(){
         //Открытие энд поинта
         Selenide.open(URI_CILDREN);
         //Проверка по тексту
-        TEXT_CILDEN.shouldHave(Condition.text("Дети и багаж"));
+        TEXT_CILDEN.shouldHave(Condition.text("В соответствии с законодательством"));
         //Прокрутка до элемента
         FLAG.scrollIntoView(true);
         //Нажатие на элемент
