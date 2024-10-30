@@ -1,6 +1,7 @@
 package OpenPage;
 
 import BaggageTest.AdditionalBaggage_4.AdditionalBaggagePage;
+import BaggageTest.BabyStrollers_7.BabyStrollersPage;
 import BaggageTest.CheckedBaggage_2.CheckedBaggagePage;
 import BaggageTest.ChildrenAndLuggage_3.ChildrenAndLuggagePage;
 import BaggageTest.HandLuggage_1.HandLuggagePage;
@@ -49,6 +50,13 @@ public class MainTest extends BaseTest {
     public void testSpecialBaggage(){
         SpecialBaggagePage specialBaggagePage = new SpecialBaggagePage();
         specialBaggagePage.test6();
+    }
+
+    @Test
+    @Feature("Тест на проверку вкладки Детская коляска")
+    public void testBabyStrollers(){
+        BabyStrollersPage babyStrollersPage = new BabyStrollersPage();
+        babyStrollersPage.test7();
     }
 
 }
