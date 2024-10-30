@@ -14,14 +14,11 @@ public class SpoatsEquimentPage {
     private final SelenideElement TEXT = $x("//div[@class='uk-visible@l']//div[contains(text(),'Спортивный инвентарь')]");
 
     //Элемент для закрыти всплывающего окна
-    public static final SelenideElement BUTTON = $x("//div[@class='uk-modal-dialog uan-modal__dialog uk-margin-auto-vertical']//button");
 
     public void test5() {
         //Открытие энд поинта
         Selenide.open(URI_SPORTS);
 
-        //Закрытие всплывающего окна
-        BUTTON.click();
 
         //Проверка по тексту что страница открыта
         TEXT.shouldHave(Condition.text("Спортивный инвентарь"));

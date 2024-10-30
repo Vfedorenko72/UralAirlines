@@ -9,10 +9,13 @@ import BaggageTest.SpecialBaggage_6.SpecialBaggagePage;
 import BaggageTest.SportsEquipment_5.SpoatsEquimentPage;
 import Setting.BaseTest;
 import io.qameta.allure.Feature;
+import org.junit.jupiter.api.MethodOrderer;
+import org.junit.jupiter.api.Order;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.TestMethodOrder;
 
+@TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 public class MainTest extends BaseTest {
-
     @Test
     @Feature("Тест на проверку окна Ручная кладь")
     public void testOpenHandLuggage(){
@@ -46,6 +49,7 @@ public class MainTest extends BaseTest {
     }
 
     @Test
+    @Order(1)
     @Feature("Тест на проверку вкладки Особый багаж")
     public void testSpecialBaggage(){
         SpecialBaggagePage specialBaggagePage = new SpecialBaggagePage();
@@ -53,6 +57,7 @@ public class MainTest extends BaseTest {
     }
 
     @Test
+    @Order(1)
     @Feature("Тест на проверку вкладки Детская коляска")
     public void testBabyStrollers(){
         BabyStrollersPage babyStrollersPage = new BabyStrollersPage();

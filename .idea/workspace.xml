@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fe1cb90c-a7c2-4cab-9088-f2ee4a6b8fe9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/BaggageTest/BabyStrollers_7/BabyStrollersPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BaggageTest/BabyStrollers_7/BabyStrollersPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BaggageTest/BabyStrollers_7/BabyStrollersPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BaggageTest/SportsEquipment_5/SpoatsEquimentPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BaggageTest/SportsEquipment_5/SpoatsEquimentPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/OpenPage/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/OpenPage/MainTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Setting/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Setting/BaseTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +39,7 @@
   "keyToString": {
     "JUnit.MainTest.executor": "Run",
     "JUnit.MainTest.testAdditionalBaggage.executor": "Debug",
+    "JUnit.MainTest.testBabyStrollers.executor": "Run",
     "JUnit.MainTest.testCheckedBaggage.executor": "Run",
     "JUnit.MainTest.testCildrenAndLuggage.executor": "Run",
     "JUnit.MainTest.testOpenHandLuggage.executor": "Run",
@@ -50,7 +54,7 @@
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.MainTest.testBabyStrollers">
+  <component name="RunManager" selected="JUnit.MainTest">
     <configuration name="MainTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UralAvialiniy" />
       <extension name="coverage">
@@ -132,8 +136,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MainTest.testBabyStrollers" />
         <item itemvalue="JUnit.MainTest" />
+        <item itemvalue="JUnit.MainTest.testBabyStrollers" />
         <item itemvalue="JUnit.MainTest.testAdditionalBaggage" />
         <item itemvalue="JUnit.MainTest.testCildrenAndLuggage" />
         <item itemvalue="JUnit.MainTest.testCheckedBaggage" />
