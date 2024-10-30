@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fe1cb90c-a7c2-4cab-9088-f2ee4a6b8fe9" name="Changes" comment="" />
+    <list default="true" id="fe1cb90c-a7c2-4cab-9088-f2ee4a6b8fe9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/BaggageTest/SpecialBaggage_6/SpecialBaggagePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/OpenPage/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/OpenPage/MainTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Setting/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Setting/BaseTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,7 +37,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "JUnit.MainTest.executor": "Run",
-    "JUnit.MainTest.testAdditionalBaggage.executor": "Run",
+    "JUnit.MainTest.testAdditionalBaggage.executor": "Debug",
     "JUnit.MainTest.testCheckedBaggage.executor": "Run",
     "JUnit.MainTest.testCildrenAndLuggage.executor": "Run",
     "JUnit.MainTest.testOpenHandLuggage.executor": "Run",

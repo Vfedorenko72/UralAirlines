@@ -4,6 +4,7 @@ import BaggageTest.AdditionalBaggage_4.AdditionalBaggagePage;
 import BaggageTest.CheckedBaggage_2.CheckedBaggagePage;
 import BaggageTest.ChildrenAndLuggage_3.ChildrenAndLuggagePage;
 import BaggageTest.HandLuggage_1.HandLuggagePage;
+import BaggageTest.SpecialBaggage_6.SpecialBaggagePage;
 import BaggageTest.SportsEquipment_5.SpoatsEquimentPage;
 import Setting.BaseTest;
 import io.qameta.allure.Feature;
@@ -41,6 +42,13 @@ public class MainTest extends BaseTest {
     public void testSportsEquiment(){
         SpoatsEquimentPage spoatsEquimentPage = new SpoatsEquimentPage();
         spoatsEquimentPage.test5();
+    }
+
+    @Test
+    @Feature("Тест на проверку вкладки Особый багаж")
+    public void testSpecialBaggage(){
+        SpecialBaggagePage specialBaggagePage = new SpecialBaggagePage();
+        specialBaggagePage.test6();
     }
 
 }
