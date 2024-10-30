@@ -2,6 +2,7 @@ package OpenPage;
 
 import BaggageTest.AdditionalBaggage_4.AdditionalBaggagePage;
 import BaggageTest.BabyStrollers_7.BabyStrollersPage;
+import BaggageTest.BaggageOnTourOperator_8.BaggageOnTourOperatorPage;
 import BaggageTest.CheckedBaggage_2.CheckedBaggagePage;
 import BaggageTest.ChildrenAndLuggage_3.ChildrenAndLuggagePage;
 import BaggageTest.HandLuggage_1.HandLuggagePage;
@@ -62,6 +63,13 @@ public class MainTest extends BaseTest {
     public void testBabyStrollers(){
         BabyStrollersPage babyStrollersPage = new BabyStrollersPage();
         babyStrollersPage.test7();
+    }
+
+    @Test
+    @Feature("Тест на проверку вкладки Багаж на рейсах туроператоров")
+    public void testBaggageOnTourOperator(){
+        BaggageOnTourOperatorPage baggageOnTourOperatorPage = new BaggageOnTourOperatorPage();
+        baggageOnTourOperatorPage.test8();
     }
 
 }
