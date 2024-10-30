@@ -15,8 +15,8 @@ import Setting.BaseTest;
 import io.qameta.allure.Feature;
 import org.junit.jupiter.api.*;
 
-@Nested
-@DisplayName("Тесты страницы багажа")
+
+
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 public class BaggageTest extends BaseTest {
     @Test

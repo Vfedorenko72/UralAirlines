@@ -7,8 +7,6 @@ import io.qameta.allure.Feature;
 import org.junit.jupiter.api.*;
 
 
-@Nested
-@DisplayName("Тесты страницы Правила")
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 public class RulesTest extends BaseTest {
     @Test

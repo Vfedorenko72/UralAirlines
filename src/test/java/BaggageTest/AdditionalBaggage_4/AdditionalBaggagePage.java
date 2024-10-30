@@ -41,22 +41,22 @@ public class AdditionalBaggagePage {
         //Прокрутка до элемента, Нажатие на элемент и проверить текст
         IS_RF.scrollIntoView(true);
         IS_RF.click();
-        TEXT_IS_RF.shouldHave(Condition.text("от 1500 ₽"));
+        TEXT_IS_RF.scrollIntoView(true).shouldHave(Condition.text("от 1500 ₽"));
 
         //Прокрутка до элемента, Нажатие на элемент и проверить текст
         V_RF.scrollIntoView(true);
         V_RF.click();
-        TEXT_V_RF.shouldHave(Condition.text("130$"));
+        TEXT_V_RF.scrollIntoView(true).shouldHave(Condition.text("130$"));
 
         //Прокрутка до элемента, Нажатие на элемент и проверить текст
         IS_USBEKISTANA.scrollIntoView(true);
         IS_USBEKISTANA.click();
-        TEXT_IS_USBEKISTANA.shouldHave(Condition.text("45$"));
+        TEXT_IS_USBEKISTANA.scrollIntoView(true).shouldHave(Condition.text("45$"));
 
         //Прокрутка до элемента, Нажатие на элемент и проверить текст
         IS_TADJIKISTANA.scrollIntoView(true);
         IS_TADJIKISTANA.click();
-        TEXT_IS_TADJIKISTANA.shouldHave(Condition.text("15/170"));
+        TEXT_IS_TADJIKISTANA.scrollIntoView(true).shouldHave(Condition.text("15/170"));
 
         //Прокрутка до элемента, Нажатие на элемент и проверить текст
         IS_KIRGISIY.scrollIntoView(true);
