@@ -13,13 +13,12 @@ import BaggageTest.SportsEquipment_5.SpoatsEquimentPage;
 import BaggageTest.StorageOfUnclaimedBaggage_10.StorageOfUnclaimedBaggagePage;
 import Setting.BaseTest;
 import io.qameta.allure.Feature;
-import org.junit.jupiter.api.MethodOrderer;
-import org.junit.jupiter.api.Order;
-import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.TestMethodOrder;
+import org.junit.jupiter.api.*;
 
+@Nested
+@DisplayName("Тесты страницы багажа")
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
-public class MainTest extends BaseTest {
+public class BaggageTest extends BaseTest {
     @Test
     @Feature("Тест на проверку окна Ручная кладь")
     public void testOpenHandLuggage(){

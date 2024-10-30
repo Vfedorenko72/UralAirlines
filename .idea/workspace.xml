@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fe1cb90c-a7c2-4cab-9088-f2ee4a6b8fe9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/BaggageTest/AllRules_11/AllRulesPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/BaggageTest/BaggageSearch_9/BaggageSearchPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/BaggageTest/StorageOfUnclaimedBaggage_10/StorageOfUnclaimedBaggagePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/BaggageTest/AdditionalBaggage_4/AdditionalBaggagePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BaggageTest/AdditionalBaggage_4/AdditionalBaggagePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/BaggageTest/BaggageOnTourOperator_8/BaggageOnTourOperatorPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BaggageTest/BaggageOnTourOperator_8/BaggageOnTourOperatorPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/OpenPage/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/OpenPage/MainTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Rules/AirTicket/AirTicketPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Rules/ContractOfCarriage/ContractOfCarriagePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Rules/RulesAdditionalServices/RulesAdditionalServicesPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/OpenPage/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/OpenPage/BaggageTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +36,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.BaggageTest.executor": "Run",
     "JUnit.MainTest.executor": "Run",
     "JUnit.MainTest.testAdditionalBaggage.executor": "Debug",
     "JUnit.MainTest.testBabyStrollers.executor": "Run",
@@ -49,87 +47,87 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Vitaliy/IdeaProjects/rest",
+    "last_opened_file_path": "C:/Users/Vitaliy/IdeaProjects/cooffeeMachina",
     "onboarding.tips.debug.path": "C:/Users/Vitaliy/AndroidStudioProjects/UralAvialiniy/src/main/java/org/example/Main.java",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.MainTest">
-    <configuration name="MainTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.BaggageTest">
+    <configuration name="BaggageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UralAvialiniy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OpenPage.*" />
+          <option name="PATTERN" value="OpenPage.BaggageTest" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="OpenPage" />
-      <option name="MAIN_CLASS_NAME" value="OpenPage.MainTest" />
+      <option name="MAIN_CLASS_NAME" value="OpenPage.BaggageTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainTest.testAdditionalBaggage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BaggageTest.testAdditionalBaggage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UralAvialiniy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OpenPage.*" />
+          <option name="PATTERN" value="OpenPage.BaggageTest" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="OpenPage" />
-      <option name="MAIN_CLASS_NAME" value="OpenPage.MainTest" />
+      <option name="MAIN_CLASS_NAME" value="OpenPage.BaggageTest" />
       <option name="METHOD_NAME" value="testAdditionalBaggage" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainTest.testBabyStrollers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BaggageTest.testBabyStrollers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UralAvialiniy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OpenPage.*" />
+          <option name="PATTERN" value="OpenPage.BaggageTest" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="OpenPage" />
-      <option name="MAIN_CLASS_NAME" value="OpenPage.MainTest" />
+      <option name="MAIN_CLASS_NAME" value="OpenPage.BaggageTest" />
       <option name="METHOD_NAME" value="testBabyStrollers" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainTest.testCheckedBaggage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BaggageTest.testCheckedBaggage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UralAvialiniy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OpenPage.*" />
+          <option name="PATTERN" value="OpenPage.BaggageTest" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="OpenPage" />
-      <option name="MAIN_CLASS_NAME" value="OpenPage.MainTest" />
+      <option name="MAIN_CLASS_NAME" value="OpenPage.BaggageTest" />
       <option name="METHOD_NAME" value="testCheckedBaggage" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainTest.testCildrenAndLuggage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BaggageTest.testCildrenAndLuggage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UralAvialiniy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OpenPage.*" />
+          <option name="PATTERN" value="OpenPage.BaggageTest" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="OpenPage" />
-      <option name="MAIN_CLASS_NAME" value="OpenPage.MainTest" />
+      <option name="MAIN_CLASS_NAME" value="OpenPage.BaggageTest" />
       <option name="METHOD_NAME" value="testCildrenAndLuggage" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -138,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MainTest" />
-        <item itemvalue="JUnit.MainTest.testBabyStrollers" />
-        <item itemvalue="JUnit.MainTest.testAdditionalBaggage" />
-        <item itemvalue="JUnit.MainTest.testCildrenAndLuggage" />
-        <item itemvalue="JUnit.MainTest.testCheckedBaggage" />
+        <item itemvalue="JUnit.BaggageTest" />
+        <item itemvalue="JUnit.BaggageTest.testBabyStrollers" />
+        <item itemvalue="JUnit.BaggageTest.testAdditionalBaggage" />
+        <item itemvalue="JUnit.BaggageTest.testCildrenAndLuggage" />
+        <item itemvalue="JUnit.BaggageTest.testCheckedBaggage" />
       </list>
     </recent_temporary>
   </component>
