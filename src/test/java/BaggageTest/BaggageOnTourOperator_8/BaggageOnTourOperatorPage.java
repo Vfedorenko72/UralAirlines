@@ -13,6 +13,8 @@ public class BaggageOnTourOperatorPage {
     //Текст для проверки что страница открылась
     private final SelenideElement TEXT_OPERATOR = $x("//div[@class='uk-visible@l']//span");
 
+
+
     public void test8(){
         //Открытие страници
         Selenide.open(URI_OPERATOR);

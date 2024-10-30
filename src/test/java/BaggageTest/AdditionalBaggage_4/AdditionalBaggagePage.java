@@ -61,6 +61,6 @@ public class AdditionalBaggagePage {
         //Прокрутка до элемента, Нажатие на элемент и проверить текст
         IS_KIRGISIY.scrollIntoView(true);
         IS_KIRGISIY.click();
-        TEXT_IS_KIRGISIY.shouldHave(Condition.text("30/2900"));
+        TEXT_IS_KIRGISIY.scrollIntoView(true).shouldHave(Condition.text("30/2900"));
     }
 }
