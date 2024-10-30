@@ -31,8 +31,8 @@ public class SpecialBaggagePage {
 
     //Текст для проверки элементов культурные ценности
     private final SelenideElement TEXT_KULTURA_REGISTR = $x("//div[@class='uk-visible@l']//li[contains(text(),'Архивы')]");
-    private final SelenideElement TEXT_KULTURA_VVOZ = $x("//div[@class='uk-visible@l']//div[contains(text(),'трех экземплярах')]");
-    private final SelenideElement TEXT_KULTURA_VIVOZ = $x("//div[@class='uk-visible@l']//div[contains(text(),'список')]");
+    private final SelenideElement TEXT_KULTURA_VVOZ = $x("//div[@class='uk-visible@l']//p[contains(text(),'Часть')]");
+    private final SelenideElement TEXT_KULTURA_VIVOZ = $x("//div[@class='uk-visible@l']//p[contains(text(),'В соответствии с действующим')]");
 
 
 
@@ -57,9 +57,9 @@ public class SpecialBaggagePage {
         KULTURA_REGISTR.click();// Открытие вкладки Что можно зарегистрировать как культурная ценность
         TEXT_KULTURA_REGISTR.shouldHave(Condition.text("Архивы"));//Проверка по тексту
         KULTURA_VVOZ.click();//Открытие вкладки Правила ввоза
-        TEXT_KULTURA_VVOZ.shouldHave(Condition.text("трех экземплярах"));//Проверка по тексту
+        TEXT_KULTURA_VVOZ.shouldHave(Condition.text("часть"));//Проверка по тексту
         KULTURA_VIVOZ.scrollIntoView(true).click();//Скрол до вкладки Правила вывоза и клик по ней
-        TEXT_KULTURA_VIVOZ.shouldHave(Condition.text("список"));//Проверка по тексту
+        TEXT_KULTURA_VIVOZ.shouldHave(Condition.text("В соответствии с действующим"));//Проверка по тексту
 
         //Открыть и проверить по тексту во вкладке Колющие и режущие предметы
         KOLL.click();
