@@ -55,7 +55,7 @@ public class SpecialBaggagePage {
         KULTURA.click();
         TEXT_KULTURA.shouldHave(Condition.text("Культурные ценности"));
         KULTURA_REGISTR.click();// Открытие вкладки Что можно зарегистрировать как культурная ценность
-        TEXT_KULTURA_REGISTR.shouldHave(Condition.text("Архивы"));//Проверка по тексту
+        TEXT_KULTURA_REGISTR.scrollIntoView(true).shouldHave(Condition.text("Архивы"));//Проверка по тексту
         KULTURA_VVOZ.click();//Открытие вкладки Правила ввоза
         TEXT_KULTURA_VVOZ.shouldHave(Condition.text("часть"));//Проверка по тексту
         KULTURA_VIVOZ.scrollIntoView(true).click();//Скрол до вкладки Правила вывоза и клик по ней

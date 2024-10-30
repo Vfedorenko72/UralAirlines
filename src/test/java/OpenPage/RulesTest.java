@@ -7,13 +7,10 @@ import io.qameta.allure.Feature;
 import org.junit.jupiter.api.*;
 
 
-@TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 public class RulesTest extends BaseTest {
     @Test
-    @Order(1)
     @Feature("Тест на проверку окна Договор перевозки")
     public void testAirRules() {
-
     }
 
     @Test
@@ -21,7 +18,6 @@ public class RulesTest extends BaseTest {
     public void testContractOfCarriage() {
         ContractOfCarriagePage contractOfCarriagePage = new ContractOfCarriagePage();
         contractOfCarriagePage.test12();
-
     }
 
     @Test
@@ -29,7 +25,6 @@ public class RulesTest extends BaseTest {
     public void testRulesAdditionalServices() {
         RulesAdditionalServicesPage rulesAdditionalServicesPage = new RulesAdditionalServicesPage();
         rulesAdditionalServicesPage.test13();
-
     }
 }
 

@@ -16,37 +16,39 @@ import io.qameta.allure.Feature;
 import org.junit.jupiter.api.*;
 
 
-
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 public class BaggageTest extends BaseTest {
     @Test
     @Feature("Тест на проверку окна Ручная кладь")
-    public void testOpenHandLuggage(){
+    public void testOpenHandLuggage() {
         HandLuggagePage handLuggagePage = new HandLuggagePage();
         handLuggagePage.test1();
     }
+
     @Test
     @Feature("Тест на проверку работы Регестрируемый багаж")
-    public void testCheckedBaggage(){
+    public void testCheckedBaggage() {
         CheckedBaggagePage checkedBaggagePage = new CheckedBaggagePage();
         checkedBaggagePage.test2();
     }
+
     @Test
     @Feature("Тест на проверку работы Дети и багаж")
-    public void testCildrenAndLuggage(){
+    public void testCildrenAndLuggage() {
         ChildrenAndLuggagePage childrenAndLuggagePage = new ChildrenAndLuggagePage();
         childrenAndLuggagePage.test3();
     }
+
     @Test
     @Feature("Тест на проверку вкладки Дополнительный багаж")
-    public void testAdditionalBaggage(){
+    public void testAdditionalBaggage() {
         AdditionalBaggagePage additionalBaggagePage = new AdditionalBaggagePage();
         additionalBaggagePage.test4();
     }
 
     @Test
     @Feature("Тест на проверку вкладки Спортивный инвентарь")
-    public void testSportsEquiment(){
+    public void testSportsEquiment() {
         SpoatsEquimentPage spoatsEquimentPage = new SpoatsEquimentPage();
         spoatsEquimentPage.test5();
     }
@@ -54,7 +56,7 @@ public class BaggageTest extends BaseTest {
     @Test
     @Order(1)
     @Feature("Тест на проверку вкладки Особый багаж")
-    public void testSpecialBaggage(){
+    public void testSpecialBaggage() {
         SpecialBaggagePage specialBaggagePage = new SpecialBaggagePage();
         specialBaggagePage.test6();
     }
@@ -62,35 +64,35 @@ public class BaggageTest extends BaseTest {
     @Test
     @Order(1)
     @Feature("Тест на проверку вкладки Детская коляска")
-    public void testBabyStrollers(){
+    public void testBabyStrollers() {
         BabyStrollersPage babyStrollersPage = new BabyStrollersPage();
         babyStrollersPage.test7();
     }
 
     @Test
     @Feature("Тест на проверку вкладки Багаж на рейсах туроператоров")
-    public void testBaggageOnTourOperator(){
+    public void testBaggageOnTourOperator() {
         BaggageOnTourOperatorPage baggageOnTourOperatorPage = new BaggageOnTourOperatorPage();
         baggageOnTourOperatorPage.test8();
     }
 
     @Test
     @Feature("Тест на проверку вкладки Розыск багажа")
-    public void testBaggageSearch(){
+    public void testBaggageSearch() {
         BaggageSearchPage baggageSearchPage = new BaggageSearchPage();
         baggageSearchPage.test9();
     }
 
     @Test
     @Feature("Тест на проверку вкладки Хранение невостребованного багажа")
-    public void testStorageOfUnclaimedBaggage(){
+    public void testStorageOfUnclaimedBaggage() {
         StorageOfUnclaimedBaggagePage storageOfUnclaimedBaggagePage = new StorageOfUnclaimedBaggagePage();
         storageOfUnclaimedBaggagePage.test10();
     }
 
     @Test
     @Feature("Тест на проверку вкладки Все правила")
-    public void testAllRules(){
+    public void testAllRules() {
         AllRulesPage allRulesPage = new AllRulesPage();
         allRulesPage.test11();
     }
