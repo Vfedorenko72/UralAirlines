@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fe1cb90c-a7c2-4cab-9088-f2ee4a6b8fe9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/FeetbackTest/RequestSubsidized_1/RequestSubsidizedPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/OpenPage/FeetbackTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/OpenPage/RulesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/OpenPage/RulesTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Rules/AirTicket/AirTicketPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RulesTest/AirTicket/AirTicketPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Rules/ContractOfCarriage/ContractOfCarriagePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RulesTest/ContractOfCarriage/ContractOfCarriagePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Rules/RulesAdditionalServices/RulesAdditionalServicesPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RulesTest/RulesAdditionalServices/RulesAdditionalServicesPage.java" afterDir="false" />
-    </list>
+    <list default="true" id="fe1cb90c-a7c2-4cab-9088-f2ee4a6b8fe9" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

@@ -21,7 +21,7 @@ abstract public class BaseTest {
 
         // Настройки опций для Chrome
         ChromeOptions options = new ChromeOptions();
-       // options.addArguments("--headless");                // Запуск Chrome без интерфейса
+        options.addArguments("--headless");                // Запуск Chrome без интерфейса
         options.addArguments("--disable-gpu");             // Отключение GPU
         options.addArguments("--no-sandbox");              // Отключение песочницы необходимо для контейнеров
         options.addArguments("--disable-dev-shm-usage");   // Отключение использования общей памяти, чтобы избежать ограничений памяти в контейнерах
