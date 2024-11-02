@@ -39,7 +39,6 @@ public class AirTicketPage {
 
     public void test14() {
         Selenide.open(URI_VOZVRAT);
-        BUTTON.click();
         REFUND_TICKET.scrollIntoView(true).shouldBe(Condition.visible).click();
         VOLUNTARY_TICKET.scrollIntoView(true).shouldBe(Condition.visible).click();
         VOLUNTARY_TICKET_APP.scrollIntoView(true).shouldBe(Condition.visible).click();
