@@ -1,4 +1,4 @@
-package Rules.RulesAdditionalServices;
+package RulesTest.RulesAdditionalServices;
 
 import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.Selenide;

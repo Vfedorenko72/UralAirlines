@@ -1,4 +1,4 @@
-package Rules.ContractOfCarriage;
+package RulesTest.ContractOfCarriage;
 
 import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.Selenide;

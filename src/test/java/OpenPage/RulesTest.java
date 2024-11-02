@@ -1,7 +1,8 @@
 package OpenPage;
 
-import Rules.ContractOfCarriage.ContractOfCarriagePage;
-import Rules.RulesAdditionalServices.RulesAdditionalServicesPage;
+import RulesTest.AirTicket.AirTicketPage;
+import RulesTest.ContractOfCarriage.ContractOfCarriagePage;
+import RulesTest.RulesAdditionalServices.RulesAdditionalServicesPage;
 import Setting.BaseTest;
 import io.qameta.allure.Feature;
 import org.junit.jupiter.api.*;
@@ -11,6 +12,8 @@ public class RulesTest extends BaseTest {
     @Test
     @Feature("Тест на проверку окна Договор перевозки")
     public void testAirRules() {
+        AirTicketPage airTicketPage = new AirTicketPage();
+        airTicketPage.test14();
     }
 
     @Test
