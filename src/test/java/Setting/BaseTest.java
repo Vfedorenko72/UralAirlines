@@ -9,26 +9,30 @@ import org.openqa.selenium.chrome.ChromeOptions;
 
 abstract public class BaseTest {
     public static void setUp() {
-        // Автоматическая настройка драйвера под Chrome версии 130
-        WebDriverManager.chromedriver().browserVersion("130").setup();
+        // Автоматическая настройка драйвера под Chrome
+        WebDriverManager.chromedriver().setup();
 
-        // Настройки Selenide для браузера и размера окна
-        Configuration.browser = "chrome";          // Тесты в браузере Chrome
-        Configuration.browserSize = "1920x1080";   // Устанавливает размер окна браузера
-        Configuration.headless = false;            // Запуск без интерфейса
-        Configuration.pageLoadStrategy = "eager";  // Стратегия загрузки: тесты продолжаются, как только основной HTML загружен
-        Configuration.pageLoadTimeout = 10000;      // Максимальное время ожидания
+        // Основные настройки Selenide
+        Configuration.browser = "chrome";            // Браузер Chrome
+        Configuration.browserSize = "1920x1080";     // Размер окна браузера
+        Configuration.headless = true;               // Включение headless-режима
+        Configuration.pageLoadStrategy = "normal";   // Ждать полной загрузки страницы
+        Configuration.pageLoadTimeout = 15000;       // Увеличено время ожидания
 
-        // Настройки опций для Chrome
+        // ChromeOptions для тонкой настройки
         ChromeOptions options = new ChromeOptions();
-        options.addArguments("--headless");                // Запуск Chrome без интерфейса
-        options.addArguments("--disable-gpu");             // Отключение GPU
-        options.addArguments("--no-sandbox");              // Отключение песочницы необходимо для контейнеров
-        options.addArguments("--disable-dev-shm-usage");   // Отключение использования общей памяти, чтобы избежать ограничений памяти в контейнерах
-        options.addArguments("--window-size=1920,1080");   // Установка размера окна браузера
+        options.addArguments("--no-sandbox");              // Безопасный режим для контейнеров
+        options.addArguments("--disable-dev-shm-usage");   // Для контейнеров Docker
+        options.addArguments("--remote-allow-origins=*");  // Исправление для Chrome 111+
+        options.addArguments("--window-size=1920,1080");   // Явная установка размеров окна
 
-        //ChromeOptions к настройкам Selenide
+        // Применение настроек для Selenide
         Configuration.browserCapabilities = options;
+
+        // Логи и отчеты
+        Configuration.reportsFolder = "build/reports/tests";
+        Configuration.screenshots = true;                 // Сохранять скриншоты при ошибках
+        Configuration.savePageSource = true;              // Сохранять HTML страницы
     }
 
     @BeforeAll
