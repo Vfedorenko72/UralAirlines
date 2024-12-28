@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fe1cb90c-a7c2-4cab-9088-f2ee4a6b8fe9" name="Changes" comment="подровнял .gitignore">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/OpenPage/FeetbackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/OpenPage/FeetbackTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +23,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Vfedorenko72"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Vfedorenko72/UralAirlines.git",
+    "accountId": "da3bff1d-4775-4f71-a854-e3120cf428b7"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -37,6 +48,7 @@
   "keyToString": {
     "JUnit.BaggageTest (1).executor": "Run",
     "JUnit.BaggageTest.executor": "Run",
+    "JUnit.FeetbackTest (1).executor": "Run",
     "JUnit.FeetbackTest.executor": "Run",
     "JUnit.MainTest.executor": "Run",
     "JUnit.MainTest.testAdditionalBaggage.executor": "Debug",
@@ -46,6 +58,7 @@
     "JUnit.MainTest.testOpenHandLuggage.executor": "Run",
     "JUnit.RulesTest.executor": "Run",
     "JUnit.RulesTest.testAirRules.executor": "Run",
+    "Maven.autoTest [test].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -58,7 +71,7 @@
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.BaggageTest (1)">
+  <component name="RunManager" selected="JUnit.FeetbackTest (1)">
     <configuration name="BaggageTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="autoTest" />
       <extension name="coverage">
@@ -89,8 +102,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FeetbackTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="UralAvialiniy" />
+    <configuration name="FeetbackTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="autoTest" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="OpenPage.*" />
@@ -105,7 +118,7 @@
       </method>
     </configuration>
     <configuration name="RulesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="UralAvialiniy" />
+      <module name="autoTest" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="OpenPage.*" />
@@ -137,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FeetbackTest (1)" />
+        <item itemvalue="JUnit.RulesTest" />
         <item itemvalue="JUnit.BaggageTest (1)" />
         <item itemvalue="JUnit.BaggageTest" />
         <item itemvalue="JUnit.RulesTest.testAirRules" />
-        <item itemvalue="JUnit.FeetbackTest" />
-        <item itemvalue="JUnit.RulesTest" />
       </list>
     </recent_temporary>
   </component>
@@ -154,6 +167,15 @@
       <option name="presentableId" value="Default" />
       <updated>1729842734416</updated>
     </task>
+    <task id="LOCAL-00001" summary="подровнял .gitignore">
+      <option name="closed" value="true" />
+      <created>1735366030507</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1735366030507</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

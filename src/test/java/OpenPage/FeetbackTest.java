@@ -1,11 +1,12 @@
 package OpenPage;
 
 
+import Setting.BaseTest;
 import org.junit.jupiter.api.Test;
 import io.qameta.allure.Feature;
 
 
-public class FeetbackTest extends Setting.BaseTest {
+public class FeetbackTest extends BaseTest {
 
     @Test
     @Feature("Проверка отправки формы с корректными данными")
