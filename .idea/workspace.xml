@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fe1cb90c-a7c2-4cab-9088-f2ee4a6b8fe9" name="Changes" comment="подровнял .gitignore">
+    <list default="true" id="fe1cb90c-a7c2-4cab-9088-f2ee4a6b8fe9" name="Changes" comment="подровнял название класса BaseTest">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/OpenPage/FeetbackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/OpenPage/FeetbackTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,18 +23,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Vfedorenko72"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Vfedorenko72&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Vfedorenko72/UralAirlines.git",
-    "accountId": "da3bff1d-4775-4f71-a854-e3120cf428b7"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Vfedorenko72/UralAirlines.git&quot;,
+    &quot;accountId&quot;: &quot;da3bff1d-4775-4f71-a854-e3120cf428b7&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -44,33 +44,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JUnit.BaggageTest (1).executor": "Run",
-    "JUnit.BaggageTest.executor": "Run",
-    "JUnit.FeetbackTest (1).executor": "Run",
-    "JUnit.FeetbackTest.executor": "Run",
-    "JUnit.MainTest.executor": "Run",
-    "JUnit.MainTest.testAdditionalBaggage.executor": "Debug",
-    "JUnit.MainTest.testBabyStrollers.executor": "Run",
-    "JUnit.MainTest.testCheckedBaggage.executor": "Run",
-    "JUnit.MainTest.testCildrenAndLuggage.executor": "Run",
-    "JUnit.MainTest.testOpenHandLuggage.executor": "Run",
-    "JUnit.RulesTest.executor": "Run",
-    "JUnit.RulesTest.testAirRules.executor": "Run",
-    "Maven.autoTest [test].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Vitaliy/IdeaProjects/cofemashina",
-    "onboarding.tips.debug.path": "C:/Users/Vitaliy/AndroidStudioProjects/UralAvialiniy/src/main/java/org/example/Main.java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JUnit.BaggageTest (1).executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BaggageTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FeetbackTest (1).executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FeetbackTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MainTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MainTest.testAdditionalBaggage.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.MainTest.testBabyStrollers.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MainTest.testCheckedBaggage.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MainTest.testCildrenAndLuggage.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MainTest.testOpenHandLuggage.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RulesTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RulesTest.testAirRules.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.autoTest [test].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Vitaliy/IdeaProjects/cofemashina&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Vitaliy/AndroidStudioProjects/UralAvialiniy/src/main/java/org/example/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="JUnit.FeetbackTest (1)">
     <configuration name="BaggageTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="autoTest" />
@@ -175,11 +175,20 @@
       <option name="project" value="LOCAL" />
       <updated>1735366030507</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="подровнял название класса BaseTest">
+      <option name="closed" value="true" />
+      <created>1735379182062</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1735379182062</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="подровнял .gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="подровнял .gitignore" />
+    <MESSAGE value="подровнял название класса BaseTest" />
+    <option name="LAST_COMMIT_MESSAGE" value="подровнял название класса BaseTest" />
   </component>
 </project>
